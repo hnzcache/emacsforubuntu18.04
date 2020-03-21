@@ -1,9 +1,9 @@
 (use-package counsel
-  :after (ivy swiper)
   :ensure t
   :bind
+  (("C-x b" . counsel-ibuffer))
   (("M-y" . counsel-yank-pop)
-:map ivy-minibuffer-map
+   :map ivy-minibuffer-map
    ("M-y" . ivy-next-line)))
 
 (setq counsel-find-file-ignore-regexp

@@ -63,7 +63,7 @@
                                           "/usr/lib/gcc/x86_64-linux-gnu/7.4.0/include"
                                           "/usr/local/include"
                                           "/usr/lib/gcc/x86_64-pc-linux-gnu/7.4.0/include-fixed"
-                                          "/usr/include"
+;;                                          "/usr/include"
                                           ))
     (add-to-list 'company-backends 'company-c-headers)
     )

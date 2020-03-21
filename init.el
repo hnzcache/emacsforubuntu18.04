@@ -93,6 +93,7 @@
 (require 'init-irony)
 (require 'init-ivy)
 
+(require 'init-java)
 (require 'init-jump)
 
 
@@ -172,6 +173,8 @@
  '(all-the-icons-ivy-buffer-commands '(ivy-switch-buffer-other-window ivy-switch-buffer))
  '(ccls-executable "/snap/bin/ccls")
  '(ccls-sem-highlight-method 'font-lock)
+ '(counsel-grep-base-command
+   "rg -i -M 120 --no-heading --line-number --color never %s %s" t)
  '(package-selected-packages
    '(color-theme geiser company-anaconda anaconda-mode molokai-theme dap-mode hydra lsp-java lsp-treemacs yasnippet-snippets use-package treemacs-projectile treemacs-magit treemacs-icons-dired synosaurus stickyfunc-enhance rainbow-delimiters org-pdfview multiple-cursors lsp-ui irony-eldoc hungry-delete highlight-symbol highlight-parentheses highlight-numbers function-args flycheck-irony flycheck-color-mode-line expand-region dumb-jump dired-subtree dired-narrow dictionary counsel company-tabnine company-lsp company-irony-c-headers company-irony company-c-headers company-auctex beacon all-the-icons-ivy all-the-icons-dired))
  '(sp-escape-quotes-after-insert nil))
